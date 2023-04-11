@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block titulo %}Dashboard Principal{% endblock %}
+{% block contenido %}
+
+
+{% include '_menu.html' %}
+
+<div class="container mt-5">
+    <h1>Bienvenidos al Dashboard del Sistema : {{sistema}} </h1>
+</div>
+
+<br>
+
+<hr>
+
+<div class="principal" >
+    <div class="fila1" style="text-align:center;">
+        <h3>Aca se colocaria el contenido de la aplicacion...</h3>
+        <button onclick="hacer_clic()">Hacer Clic</button>
+    </div>
+</div>
+
+
+{% endblock %}
