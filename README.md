@@ -1,20 +1,20 @@
-Esta version de Login hace uso de:
+#Esta version de Login hace uso de:
 
-Front End
+#Front End
 
 HTML, CSS, JAVASRIPT Y BOOTSTRAP
 
-Back End
+#Back End
 
 PYTHON, FLASK y MYSQL 
 
 Hace uso del Modelo Vista Controlador (MVC)
 
-Archivos de Modelo:
+#Archivos de Modelo:
 base.py
 usuarios.py
 
-Archivos de Vista (Templates, Static)
+#Archivos de Vista (Templates, Static)
 
 Templates:
 
@@ -29,17 +29,18 @@ login.css
 login.js
 archios de bootstrap...
 utilidad toaster.css y js para modificar a apariencia de los mensajes flash
-# Para tener en cuenta.
-
-APP_SECRET_KEY=abc
-BASEDATOS_HOST=localhost
-BASEDATOS_USER=root
-BASEDATOS_PASSWORD=root
-BASEDATOS_NOMBRE=flask_mysql_coding_dojo
-NOMBRE_SISTEMA=Sistema Prueba
-
-Archivo Controlador:
-controller.py
 
 
-Base de datos mysql = 
+#Archivo Controlador
+Controller.py
+
+
+Hace uso de archivo .env, pero que no se incluye debido a la seguridad de Github
+contenido del archivo .env  a continuacion:
+
+APP_SECRET_KEY="user_login"
+BASEDATOS_HOST="localhost"
+BASEDATOS_USER="root"
+BASEDATOS_PASSWORD="root"
+BASEDATOS_NOMBRE="user_login"
+NOMBRE_SISTEMA="Sistema Login base demo"
