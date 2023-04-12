@@ -4,7 +4,6 @@
 
 .login body{padding-top: 50px !important;}
 
-
 .login span{width: 150px; font-size: 1.1em !important;}
 
 .login input{min-width: 250px; max-width: 300px !important;}
@@ -22,10 +21,10 @@
 .center_col input{min-width: 250px; max-width: 350px;}
 
 .reg, .log{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 550px;
     text-align: center;
-    background-color: #345943;
+    background-color: #345943; 
     color: white;
     border-radius: 5px;
 }

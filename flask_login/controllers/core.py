@@ -5,9 +5,6 @@ from flask_bcrypt import Bcrypt
 from flask_login.models.usuario import Usuario
 from datetime import datetime
 
-
-
-
 bcrypt = Bcrypt(app)
 
 
