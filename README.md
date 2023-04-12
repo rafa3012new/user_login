@@ -35,7 +35,7 @@ utilidad toaster.css y js para modificar a apariencia de los mensajes flash
 Controller.py
 
 
-Hace uso de archivo .env, pero que no se incluye debido a la seguridad de Github
+Hace uso de archivo .env, pero no se incluye debido a la seguridad de Github
 contenido del archivo .env  a continuacion:
 
 APP_SECRET_KEY="user_login"
